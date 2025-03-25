@@ -238,8 +238,26 @@ Holistic vs. Agile
 
 
 ## Business Analysis Process Framework  
-- What are the common phases of the Business Analysis Process Framework?  
-- What is strategic context? What techniques can be used to analyze it?  
+- What are the common phases of the Business Analysis Process Framework?
+  ![image](https://github.com/user-attachments/assets/fc96a35a-854c-4724-bd79-35feecdd2c55)
+  
+  Strategic Context, Investigate Situation, Identify Improvements, Assess Feasibility, Define requirements, Deliver solution, Evaluate Solution, Stakeholder Engagement
+
+- What is strategic context? What techniques can be used to analyze it?
+
+  <ol>
+    <li>External Environment Analysis</li>
+    <ol>
+      <li>PESTLE analysis</li>
+      <li>Porter's five forces analysis</li>
+    </ol>
+    <li>Internal Environment Analysis</li>
+    <ol>
+      <li>Resource audit</li>
+      <li>VMOST</li>
+      <li>Enterprise Architecture</li>
+    </ol>
+  </ol>
 - What techniques are applicable to stakeholder engagement?  
 - What is the goal of situation investigation during business analysis? What techniques can be used to investigate the situation?  
 - What is the goal of improvement identification during business analysis? What techniques can be applied to support issue finding?  
