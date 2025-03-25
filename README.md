@@ -1,4 +1,4 @@
-# ISAP-Kolis (52 questions)
+![image](https://github.com/user-attachments/assets/fbacdcea-6966-4a75-8288-86458cb5266e)# ISAP-Kolis (52 questions)
 
 ## Introduction to ISAD  
 - What are the main characteristics of a system?
@@ -210,8 +210,32 @@ Common SDLC phases:
   Business Analyst - any person who performs business analysis tasks no matter their job title or organizational role
   Main responsibilities - discovering, synthesizing, and analyzing information from a variety of sources within an enterprise,  including tools, processes, documentation, and stakeholders.
 
-- What are the main business analysis principles?  
+- What are the main business analysis principles?
+
+  <ol>
+    <li>Root causes not symptoms</li>
+    <li>Business improvement not IT system change</li>
+    <li>Options not solutions</li>
+    <li>Feasible, contributing requirements, not meeting all requests</li>
+    <li>The entire business change lifecycle</li>
+    <li>Negotiation not avoidance</li>
+  </ol>
+  
 - What are the differences between Holistic and Agile business analysis approaches?  
+![image](https://github.com/user-attachments/assets/db73b23f-1296-496b-accd-3780c6a99a47)
+
+Holistic vs. Agile
+
+| Holistic Approach | Agile Approach |
+|------------------|---------------|
+| **Pros** | **Pros** |
+| Comprehensive view | Flexibility |
+| Aims to enhance efficiency | Early Engagement |
+| Supportive environment | Incremental Delivery |
+| **Cons** | **Cons** |
+| Complexity | Lack of Detailed Planning |
+| Time-consuming | Dependency on Collaboration |
+
 
 ## Business Analysis Process Framework  
 - What are the common phases of the Business Analysis Process Framework?  
@@ -222,6 +246,7 @@ Common SDLC phases:
 - What is the goal of options evaluation and feasibility assessment during business analysis? What techniques can be applied to find ideas and evaluate options?  
 - What are the goals of requirements definition? What are common approaches to document requirements?  
 
+--------------------------------------------------
 ## System Modelling  
 - Why do we need models? What is the scope of the model? What is the quality of the model?  
 - What is modelling language? What parts is it composed of? What types of modelling languages are there? What is the importance of modelling standards?  
