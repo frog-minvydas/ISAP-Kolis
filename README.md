@@ -2,9 +2,62 @@
 
 ## Introduction to ISAD  
 - What are the main characteristics of a system?
-- What is a feedback loop? Provide some examples from within the software development lifecycle.  
-- What is a system context? What are the common categories of a system? What is different between enterprise and engineered systems?  
-- What are the main components of an information system? What are the main types of information? Which characteristics define qualities of information?  
+  <ol>
+    <li>Input</li>
+    <li>Components</li>
+    <li>Boundary</li>
+    <li>Output</li>
+    <li>Interrealationship</li>
+    <li>Interfaces</li>
+    <li>Environment</li>
+  </ol>
+- What is a feedback loop? Provide some examples from within the software development lifecycle.\
+  
+  A feedback loop is a process in which the output of a system is fed back into the system as input, influencing its future behavior. Feedback loops help systems regulate and adapt to changes.
+  ![image](https://github.com/user-attachments/assets/92d04017-e793-4cb2-8150-d63dd5cf079a)
+
+  ![image](https://github.com/user-attachments/assets/ea4268c9-c10e-440a-88bc-17843f0a0d44)
+
+
+- What is a system context? What are the common categories of a system? What is different between enterprise and engineered systems?\
+  
+  System context - describes all external elements which interact across the boundary of particular system of interest (SOL)
+
+  <ol>
+    <li>Enterprise Systems - Formal and informal industry, academic, governmental, professional, and non-profit organizations such as corporations, divisions, functional organizations – departments such as accounting and engineering; projects, and others.</li>
+    <li>Engineered Systems - Physical systems or products developed for internal use, commercial sale to the marketplace, or for contract development that require one or more Engineering disciplines and skillsets to apply mathematical and scientific principles to design and develop solutions</li>
+  </ol>
+  
+- What are the main components of an information system? What are the main types of information? Which characteristics define qualities of information?
+
+  The main five components of information system:
+  <ol>
+    <li>Hardware</li>
+    <li>Software</li>
+    <li>Data</li>
+    <li>Procedures</li>
+    <li>People</li>
+  </ol>
+
+  The main types of information:
+  <ol>
+    <li>Strategic - long term planning, less structured</li>
+    <li>Tactical - short-term planning, more structured</li>
+    <li>Operational - daily operations, structured</li>
+    <li>Statutory - reporting to government agencies and regulatories</li>
+  </ol>
+
+  Quality of Information:
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  
 
 ## Introduction to Software Development Methods  
 - What are the common phases in the Software-Development lifecycle (SDLC)?  
