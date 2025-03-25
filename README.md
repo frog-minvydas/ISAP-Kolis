@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9c890572-bec3-49ed-b3fd-968d9d5967ad)# ISAP-Kolis (52 questions)
+# ISAP-Kolis (52 questions)
 
 ## Introduction to ISAD  
 - What are the main characteristics of a system?
@@ -180,12 +180,36 @@ Common SDLC phases:
 
 ## Soft-Systems Methodology  
 - What is the difference between hard and soft system thinking?  
-- What are the main analytical deliveries in the Soft System Methodology?  
-- What is the purpose of the CATWOE technique?  
+- What are the main analytical deliveries in the Soft System Methodology?
+
+  <ol>
+    <li>Rich Picture</li>
+    <li>CATWOE</li>
+    <li>Modelling</li>
+    <li>Conceptual Model</li>
+    <li>Measuring Transformations: 3Es</li>
+  </ol>
+- What is the purpose of the CATWOE technique?
+  The purpose of CATWOE in Soft Systems Methodology (SSM) is to analyze and define different perspectives within a system, ensuring a holistic understanding of the problem and potential solutions. It helps in identifying stakeholders, their roles, and the transformation process within a system.
 
 ## Introduction to Business Analysis  
-- What is business analysis? What are the core concepts of business analysis?  
-- Who is a business analyst? What are their main responsibilities?  
+- What is business analysis? What are the core concepts of business analysis?
+  Business analysis (BA) - is the practice of enabling change in an enterprise by defining needs and recommending solutions that deliver value to stakeholders
+  Core concept:
+  ![image](https://github.com/user-attachments/assets/180d7d73-d844-499b-b4f2-15561dbae33c)
+  <ol>
+    <li>What are the kinds of changes we are doing?</li>
+    <li>What are the needs we are trying to satisfy?</li>
+    <li>What are the solutions we are creating or changing?</li>
+    <li>Who are the stakeholders involved?</li>
+    <li>What do stakeholders consider to be of value?</li>
+    <li>What are the contexts that we and the solution are in?</li>
+  </ol>
+  
+- Who is a business analyst? What are their main responsibilities?
+  Business Analyst - any person who performs business analysis tasks no matter their job title or organizational role
+  Main responsibilities - discovering, synthesizing, and analyzing information from a variety of sources within an enterprise,  including tools, processes, documentation, and stakeholders.
+
 - What are the main business analysis principles?  
 - What are the differences between Holistic and Agile business analysis approaches?  
 
