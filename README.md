@@ -274,8 +274,38 @@ Holistic vs. Agile
 
 - What techniques are applicable to stakeholder engagement?
   ![image](https://github.com/user-attachments/assets/459519ac-923c-457a-866a-dc5b8611f344)
+  ![image](https://github.com/user-attachments/assets/05f8a8d9-1c54-4033-9221-ceb02917914f)
 
-- What is the goal of situation investigation during business analysis? What techniques can be used to investigate the situation?  
+- What is the goal of situation investigation during business analysis? What techniques can be used to investigate the situation?
+  Goal - understand the problems and opportunuties within the current state business situation
+
+  Techniques:
+  <ol>
+    <li>Holistic context</li>
+    <ol>
+      <li>Leavitt's diamond</li>
+      <li>POPIT model</li>
+    </ol>
+    <li>Qualitative analysis</li>
+    <ol>
+      <li>Background research</li>
+      <li>Focus group</li>
+      <li>Interviewing</li>
+      <li>Observation</li>
+    </ol>
+    <li>Quantitive analysis</li>
+    <ol>
+      <li>Sampling</li>
+      <li>Survey</li>
+    </ol>
+    <li>Documenting situation</li>
+    <ol>
+      <li>Fishbone</li>
+      <li>Mind map</li>
+      <li>Rich picture</li>
+      <li>RAG assessment</li>
+    </ol>
+  </ol>
 - What is the goal of improvement identification during business analysis? What techniques can be applied to support issue finding?  
 - What is the goal of options evaluation and feasibility assessment during business analysis? What techniques can be applied to find ideas and evaluate options?  
 - What are the goals of requirements definition? What are common approaches to document requirements?  
