@@ -2,7 +2,7 @@
 
 ## Introduction to ISAD  
 - What are the main characteristics of a system?
-  <ol>
+  <ul>
     <li>Input</li>
     <li>Components</li>
     <li>Boundary</li>
@@ -10,7 +10,7 @@
     <li>Interrealationship</li>
     <li>Interfaces</li>
     <li>Environment</li>
-  </ol>
+  </ul>
 - What is a feedback loop? Provide some examples from within the software development lifecycle.\
   
   A feedback loop is a process in which the output of a system is fed back into the system as input, influencing its future behavior. Feedback loops help systems regulate and adapt to changes.
@@ -23,46 +23,94 @@
   
   System context - describes all external elements which interact across the boundary of particular system of interest (SOL)
 
-  <ol>
+  <ul>
     <li>Enterprise Systems - Formal and informal industry, academic, governmental, professional, and non-profit organizations such as corporations, divisions, functional organizations – departments such as accounting and engineering; projects, and others.</li>
     <li>Engineered Systems - Physical systems or products developed for internal use, commercial sale to the marketplace, or for contract development that require one or more Engineering disciplines and skillsets to apply mathematical and scientific principles to design and develop solutions</li>
-  </ol>
+  </ul>
   
 - What are the main components of an information system? What are the main types of information? Which characteristics define qualities of information?
 
   The main five components of information system:
-  <ol>
+  <ul>
     <li>Hardware</li>
     <li>Software</li>
     <li>Data</li>
     <li>Procedures</li>
     <li>People</li>
-  </ol>
+  </ul>
 
   The main types of information:
-  <ol>
+  <ul>
     <li>Strategic - long term planning, less structured</li>
     <li>Tactical - short-term planning, more structured</li>
     <li>Operational - daily operations, structured</li>
     <li>Statutory - reporting to government agencies and regulatories</li>
-  </ol>
+  </ul>
 
   Quality of Information:
-  <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ol>
+  <ul>
+    <li>Timeliness - must reach recipients on time</li>
+    <li>Accuracy - must be error-free and clear</li>
+    <li>Relevance - must answer specific questions for decision-making</li>
+    <li>Adequacy - must be sufficient, not too little or too much</li>
+    <li>Completeness - must meet all needs to avoid wrong decisions</li>
+    <li>Explicitness - should not need further analysis</li>
+    <li>Exception-based - only important info is reported to management</li>
+  </ul>
   
 
 ## Introduction to Software Development Methods  
-- What are the common phases in the Software-Development lifecycle (SDLC)?  
-- What activities in SDLC are referred to as "umbrella" activities?  
-- What are the common Software Development Methodologies? How do they differ between each other?  
+- What are the common phases in the Software-Development lifecycle (SDLC)?
+
+Common SDLC phases:
+  <ul>
+    <li>Planning</li>
+    <li>Analysis</li>
+    <li>Design</li>
+    <li>Implementation</li>
+  </ul>
+  
+- What activities in SDLC are referred to as "umbrella" activities?
+
+  SDLC Umbrella Activities:
+  <ul>
+    <li>Software project tracking and control</li>
+    <li>Risk management</li>
+    <li>Software quality assurance</li>
+    <li>Technical reviews</li>
+    <li>Measurement</li>
+    <li>Software configuration management</li>
+    <li>Reusability management</li>
+    <li>Work product preparation and production</li>
+  </ul>
+
+  
+- What are the common Software Development Methodologies? How do they differ between each other?
+
+  Common Software Development methodologies:
+  <ul>
+    <li>Sequential</li>
+    <ul>
+      <li>Waterfall</li>
+      <li>Parallel</li>
+      <li>V-Model</li>
+    </ul>
+    <li>Iterative</li>
+    <ul>
+      <li>Rapid Application Development (RAD)</li>
+      <ul>
+        <li>Phased</li>
+        <li>Prototyping</li>
+        <li>Throwaway prototyping</li>
+      </ul>
+      <li>Agile</li>
+      <ul>
+        <li>XP</li>
+        <li>Scrum</li>
+        <li>Kanban</li>
+      </ul>
+    </ul>
+  </ul>
 
 ## Business Analysis Concepts  
 - What are the main elements of analytical system entity construct? What are the fundamental system principles?  
