@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fbacdcea-6966-4a75-8288-86458cb5266e)# ISAP-Kolis (52 questions)
+# ISAP-Kolis (52 questions)
 
 ## Introduction to ISAD  
 - What are the main characteristics of a system?
