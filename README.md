@@ -1,8 +1,8 @@
-# ISAP-Kolis (52 questions)
+![image](https://github.com/user-attachments/assets/9c890572-bec3-49ed-b3fd-968d9d5967ad)# ISAP-Kolis (52 questions)
 
 ## Introduction to ISAD  
 - What are the main characteristics of a system?
-  <ul>
+  <ol>
     <li>Input</li>
     <li>Components</li>
     <li>Boundary</li>
@@ -10,7 +10,7 @@
     <li>Interrealationship</li>
     <li>Interfaces</li>
     <li>Environment</li>
-  </ul>
+  </ol>
 - What is a feedback loop? Provide some examples from within the software development lifecycle.\
   
   A feedback loop is a process in which the output of a system is fed back into the system as input, influencing its future behavior. Feedback loops help systems regulate and adapt to changes.
@@ -23,32 +23,32 @@
   
   System context - describes all external elements which interact across the boundary of particular system of interest (SOL)
 
-  <ul>
+  <ol>
     <li>Enterprise Systems - Formal and informal industry, academic, governmental, professional, and non-profit organizations such as corporations, divisions, functional organizations – departments such as accounting and engineering; projects, and others.</li>
     <li>Engineered Systems - Physical systems or products developed for internal use, commercial sale to the marketplace, or for contract development that require one or more Engineering disciplines and skillsets to apply mathematical and scientific principles to design and develop solutions</li>
-  </ul>
+  </ol>
   
 - What are the main components of an information system? What are the main types of information? Which characteristics define qualities of information?
 
   The main five components of information system:
-  <ul>
+  <ol>
     <li>Hardware</li>
     <li>Software</li>
     <li>Data</li>
     <li>Procedures</li>
     <li>People</li>
-  </ul>
+  </ol>
 
   The main types of information:
-  <ul>
+  <ol>
     <li>Strategic - long term planning, less structured</li>
     <li>Tactical - short-term planning, more structured</li>
     <li>Operational - daily operations, structured</li>
     <li>Statutory - reporting to government agencies and regulatories</li>
-  </ul>
+  </ol>
 
   Quality of Information:
-  <ul>
+  <ol>
     <li>Timeliness - must reach recipients on time</li>
     <li>Accuracy - must be error-free and clear</li>
     <li>Relevance - must answer specific questions for decision-making</li>
@@ -56,24 +56,24 @@
     <li>Completeness - must meet all needs to avoid wrong decisions</li>
     <li>Explicitness - should not need further analysis</li>
     <li>Exception-based - only important info is reported to management</li>
-  </ul>
+  </ol>
   
 
 ## Introduction to Software Development Methods  
 - What are the common phases in the Software-Development lifecycle (SDLC)?
 
 Common SDLC phases:
-  <ul>
+  <ol>
     <li>Planning</li>
     <li>Analysis</li>
     <li>Design</li>
     <li>Implementation</li>
-  </ul>
+  </ol>
   
 - What activities in SDLC are referred to as "umbrella" activities?
 
   SDLC Umbrella Activities:
-  <ul>
+  <ol>
     <li>Software project tracking and control</li>
     <li>Risk management</li>
     <li>Software quality assurance</li>
@@ -82,41 +82,101 @@ Common SDLC phases:
     <li>Software configuration management</li>
     <li>Reusability management</li>
     <li>Work product preparation and production</li>
-  </ul>
+  </ol>
 
   
-- What are the common Software Development Methodologies? How do they differ between each other?
+- **What are the common Software Development Methodologies? How do they differ between each other?**
 
   Common Software Development methodologies:
-  <ul>
+  <ol>
     <li>Sequential</li>
-    <ul>
+    <ol>
       <li>Waterfall</li>
       <li>Parallel</li>
       <li>V-Model</li>
-    </ul>
+    </ol>
     <li>Iterative</li>
-    <ul>
+    <ol>
       <li>Rapid Application Development (RAD)</li>
-      <ul>
+      <ol>
         <li>Phased</li>
         <li>Prototyping</li>
         <li>Throwaway prototyping</li>
-      </ul>
+      </ol>
       <li>Agile</li>
-      <ul>
+      <ol>
         <li>XP</li>
         <li>Scrum</li>
         <li>Kanban</li>
-      </ul>
-    </ul>
-  </ul>
+      </ol>
+    </ol>
+  </ol>
+
+  They differ from each other ...
 
 ## Business Analysis Concepts  
-- What are the main elements of analytical system entity construct? What are the fundamental system principles?  
-- What are the main system principles?  
-- How should a problem statement be formulated?  
-- What is the general problem-solving model?  
+- **What are the main elements of analytical system entity construct? What are the fundamental system principles?**
+
+  Analytical System Entity Construct elements:
+  <ol>
+    <li>Roles, missions, objectives</li>
+    <li>Resources</li>
+    <li>Internal Controls/Constraints</li>
+    <li>Outputs</li>
+    <li>Operating constraints</li>
+    <li>Threats</li>
+    <li>Opportunities</li>
+    <li>Inputs</li>
+    <li>Stakeholders</li>
+  </ol>
+
+  Fundamental system principles
+- What are the main system principles?
+
+<ol>
+  <li>
+    System Interactions - Systems, products, and services need to engage with and respond to external systems and dynamic conditions in their operating environment through peer-level or hierarchical types of interactions.\ 
+    Interactions can be cooperative, supportive, competitive, or even hostile, aggressive, or defensive, or combination of them.\
+  </li>
+  <li>
+    Behaviours, Production, Higher-Order Dependencies
+  </li>
+  <li>
+    Equilibrium - The term attributes describes a system’s quality traits or physical features that may be objective—observable and measurable—or subjective. Examples include system/product name, model, serial number, contract number, unit cost, and fixed-wing aircraft versus rotorcraft.
+  </li>
+  <li>
+    The balance of power - system existence and survival are determined by its ability to cope with the statics and dynamics of its operating environment
+  </li>
+  <li>
+    User Benefits - Every sistem, product or service must provide six benefits to stakeholders to be considered worthy of their consideration for missions: (Operational) Utility, Suitability, Availability, Usability, Effectiveness, Efficiency
+  </li>
+  <li>
+    Customer Needs - Success in developing systems, products, or services for Enterprises and requires that you understand the who, what, when, where, and how they will purchase.
+  </li>
+  <li>
+    System Existence - every system, product or service has a purpose and exists for the benefit of performing missions for its stakeholders (users, end users)
+  </li>
+  <li>
+    Customer's Customer - To fully understand and support a customer as a System User, we must understand what their customers—the System’s End Users—expect from them and the enabling role your system, product, and service contributes to the accomplishment of those results.
+  </li>
+  <li>
+    Dual producer-supplier roles
+  </li>
+</ol>
+  
+- How should a problem statement be formulated?
+
+  Steps to formulate problem statement:
+  <ol>
+    <li>Clearly and concisely define the problem or issue in one sentence</li>
+    <li>Avoid identifying the source or root cause of a problem</li>
+    <li>Identify the operational scenario or operating conditions under which the problem occurs or leads to occurrence of the problem</li>
+    <li>Avoid stating any explicit or implicit solutions</li>
+    <li>Avoid assigning responsibility or blame</li>
+  </ol>
+
+  Problem statement example - What is the general problem-solving model?  “We are failing to meet the increasing demands and expectations of our customers. “
+
 
 ## Soft-Systems Methodology  
 - What is the difference between hard and soft system thinking?  
