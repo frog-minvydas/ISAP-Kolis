@@ -257,8 +257,24 @@ Holistic vs. Agile
       <li>VMOST</li>
       <li>Enterprise Architecture</li>
     </ol>
+    <li>Strategy Analysis</li>
+    <ol>
+      <li>Business model canvas</li>
+      <li>Business capability model</li>
+      <li>SWOT analysis</li>
+      <li>Business Motivation model</li>
+    </ol>
+    <li>Performance Measurements</li>
+    <ol>
+      <li>Critical success factors</li>
+      <li>Key performance indicators</li>
+    </ol>
   </ol>
-- What techniques are applicable to stakeholder engagement?  
+  ![image](https://github.com/user-attachments/assets/51fd1789-3ea3-4f92-b70f-818b1492206a)
+
+- What techniques are applicable to stakeholder engagement?
+  ![image](https://github.com/user-attachments/assets/459519ac-923c-457a-866a-dc5b8611f344)
+
 - What is the goal of situation investigation during business analysis? What techniques can be used to investigate the situation?  
 - What is the goal of improvement identification during business analysis? What techniques can be applied to support issue finding?  
 - What is the goal of options evaluation and feasibility assessment during business analysis? What techniques can be applied to find ideas and evaluate options?  
