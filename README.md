@@ -387,42 +387,522 @@ Holistic vs. Agile
 
 --------------------------------------------------
 ## System Modelling  
-- Why do we need models? What is the scope of the model? What is the quality of the model?  
-- What is modelling language? What parts is it composed of? What types of modelling languages are there? What is the importance of modelling standards?  
-- What is the difference between Model Driven Engineering and Agile Modelling?  
+Why do we need models? What is the scope of the model? What is the quality of the model?
+<ul>
+  <li>Why do we need models?</li>
+    <ul>
+      <li>Understand and explain complex systems</li>
+      <li>Design systems and define requirements</li>
+      <li>Support system testing, training, and evolution</li>
+      <li>Capture and communicate knowledge</li>
+  </ul>
+  <li>What is the scope of the model?</li>
+    The model must be scoped to address its intended purpose.
+    <ul>
+      <li>Breadth - how much of the system's requirements it covers</li>
+      <li>Depth - how deeply it breaks down system components</li>
+      <li>Fidelity - how detailed each part of the model is</li>
+    </ul>
+  <li>What is the quality of the model?</li>
+    Model quality is judged by:
+    <ul>
+      <li>How well it follows guidelines</li>
+      <li>How well it serves its purpose</li>
+      <li>It helps estimate cost, track progress, assess risks, and verify designs</li>
+    </ul>
+</ul>
+
+What is modelling language? What parts is it composed of? What types of modelling languages are there? What is the importance of modelling standards?
+
+<ul>
+  <li>What is modelling language?</li>
+    A modelling language is a tool to build system models.
+  <li>What parts is it composed of?</li>
+    <ul>
+      <li>Abstract syntax: rules and structure</li>
+      <li>Concrete syntax: visual or textual symbols</li>
+      <li>Semantics: meaning</li>
+      <li>Pragmatics: how to use it</li>
+    </ul>
+  <li>What types of modelling languages are there?</li>
+    By purpose:
+    <ul>
+      <li>Decriptive: UML, BPMN</li>
+      <li>Executable: BPEL, BPSim</li>
+      <li>Data exchange: XML, JSON</li>
+      <li>Transformationl: QVT, ATL</li>
+    </ul>
+    By domain:
+    <ul>
+      <li>General-purpose: for any system</li>
+      <li>Domain specific: tailored to one field</li>
+    </ul>
+    By formality:
+    <ul>
+      <li>Formal: no ambiguity (PentriNet, OCL)</li>
+      <li>Partially formal: some ambiguity (UML, BPMN)</li>
+      <li>Informal: sketchy, no strict rules (flowcharts)</li>
+    </ul>
+  <li>What is the importance of modelling standards?</li>
+    <ul>
+      <li>Ensure models are consistent and can be reused or shared</li>
+      <li>Support integration between tools and domains</li>
+      <li>Are defined by ISO, IEEE, OMG</li>
+    </ul>
+</ul>
+What is the difference between Model Driven Engineering and Agile Modelling?
+
+<ul>
+  <li>Model Driven Engineering (MDE)</li>
+    <ul>
+      <li>Uses models instead of code for development</li>
+      <li>Based on metamodels</li>
+      <li>Involves transformations from models o code</li>
+      <li>Emphasizes model interperability and management</li>
+      <li>Supported by standards (UML, MOF, QVT) and tools (Eclipse, Enterpraise Architect)</li>
+    </ul>
+  <li>Agile Modelling</li>
+    <ul>
+      <li>Modelling is used for understanding and communication. not just documentation</li>
+      <li>Uses simple, low-energy tools (whiteboards)</li>
+      <li>Encourages collaborative modeling</li>
+      <li>Focuses on "good enough" models, often informal</li>
+      <li>Accepts that final design may differ from models</li>
+      <li>Developers themselves do the modelling</li>
+    </ul>
+</ul>
 
 ## Business Motivation Model  
-- What is the purpose of the Business Motivation Model?  
-- What are the general principles of BMM definition? What are Mission and Vision, Strategies and Goals, Tactics and Objectives? How do they relate with each other? What are the differences between Goal and Objective?  
+What is the purpose of the Business Motivation Model?
+
+<ul>
+  <li>Business Motivation Model (BMM)</li>
+    <ul>
+      <li>Describes what a business is trying to acomplish - its goals and objectives</li>
+      <li>Identifies factors that motivate creating business plans</li>
+      <li>Defines elements of business plans</li>
+      <li>Shows how all these factors and elements inter-relate</li>
+    </ul>
+</ul>
+
+What are the general principles of BMM definition? What are Mission and Vision, Strategies and Goals, Tactics and Objectives? How do they relate with each other? What are the differences between Goal and Objective?
+
+<ul>
+  <li>What are the general principles of BMM definition?</li>
+    <ul>
+      <li>It is methodology-neutral</li>
+      <li>Should be business-driven</li>
+      <li>Updated when business decisions change</li>
+      <li>Must support organized business planning</li>
+      <li>Must ensure traceability between business rules, processes, and responsibilities</li>
+    </ul>
+  <li>What are Mission and Vision, Strategies and Goals, Tactics and Objectives?</li>
+    <ul>
+      <li>Vision</li>
+        <ul>
+          <li>Describes the desired future state of the enterprise</li>
+          <li>Is often compound, not focused on one aspect</li>
+        </ul>
+      <li>Mission</li>
+        <ul>
+          <li>The main ongoing activity that makes the vision real</li>
+          <li>Should include action, product/service, customer/market</li>
+        </ul>
+      <li>Strategies</li>
+        <ul>
+          <li>A major part of the plan to fulfill the mission</li>
+          <li>Long-term and imapcts how the business works</li>
+        </ul>
+      <li>Tactics</li>
+        <ul>
+          <li>A specific action to support the strategy</li>
+          <li>Shorter-term, narrower in scope</li>
+        </ul>
+      <li>Goal</li>
+        <ul>
+          <li>A state or condition to be achieved or maintained</li>
+          <li>Medium to long term</li>
+          <li>Often qualitative, not always measurable</li>
+        </ul>
+      <li>Objective</li>
+        <ul>
+          <il>A specific, measurable, time-targeted step towards a goal</il>
+          <il>Based on SMART: Specific, Measurable, Attainable, Relevant, Time-based</il>
+        </ul>
+    </ul>
+  <li>How do they relate with each other?</li>
+    <ul>
+      <li>Vision defines the desired future state</li>
+      <li>Mission turns that vision into daily activity</li>
+      <li>Goals break the vision into broad targets</li>
+      <li>Objectives are concrete steps to reach goals</li>
+      <li>Strategies define how to carry out the mission to achieve goals</li>
+      <li>Tactics are detailed actions that implement strategies and reach objectives</li>
+    </ul>
+  <li>What are the differences between Goal and Objective?</li>
+    <ul>
+      <li>Scope - goals are broad and general while objectives are specific and detailed</li>
+      <li>Time - goals are medium to long term while objectives are short to medium term</li>
+      <li>Measures - goals are not always measurable while objectives should always be measurable (SMART)</li>
+    </ul>
+</ul>
+
 
 ## Introduction to Business Process Analysis  
-- What is a process? What are the common types of business processes?  
-- What techniques can be used to analyze human interactions in business processes? What is the purpose of a process model?  
-- What are the common perspectives of business process analysis?  
-- What techniques can be used to define Enterprise Level process models?  
-- What techniques can be used to define Event-Response level models?  
-- What is the purpose of BPMN, CMMN, and DMN? What are the differences between them?  
-- What is the purpose of Case Management Model Notation? What is the difference between CMMN and BPMN?  
-- What is the difference between structured processes, cases, and ad-hoc processes?  
+What is a process? What are the common types of business processes?
+
+<ul>
+  <li>What is a process?</li>
+  A process is a set of actions or steps taken to achieve a goal. It includes activities triggered by events, with inputs, ordered steps, and outputs that lead to outcomes
+  <li>Types of business processes</li>
+    <ul>
+      <li>Core processes - deliver value and drive the business</li>
+      <li>Supporting processes - enable the operation of core processes</li>
+      <li>Management processes - control, measure, and optimise processes</li>
+    </ul>
+</ul>
+
+What techniques can be used to analyze human interactions in business processes? What is the purpose of a process model?
+
+<ul>
+  <li>What techniques can be used to analyze human interactions in business processes?</li>
+    <ul>
+      <li>Direct Observation</li>
+      <li>Apprentice learning</li>
+      <li>Participatory Video</li>
+      <li>Activity simulation</li>
+      <li>Workplace layout analysis</li>
+      <li>Resource allocation analysis</li>
+      <li>Motivation and rewards analysis</li>
+    </ul>
+  <li>What is the purpose of a process model?</li>
+    <ul>
+      <li>Purpose</li>
+        <ul>
+          <li>Show how work is done</li>
+          <li>Describe actual or desired processes</li>
+          <li>Support process analysis</li>
+          <li>Visualise steps, decisions, and outcomes</li>
+          <li>Communicate with stakeholders</li>
+          <li>Define current and future states</li>
+        </ul>
+    </ul>
+</ul>
+
+What are the common perspectives of business process analysis?
+
+<ul>
+  <li>Perspectives (Hierarchy)</li>
+    <ul>
+      <li>Enterprise level - the overall value stream</li>
+      <li>Event-response level - tasks triggered by events</li>
+      <li>Actor-task level - detailed actions by roles or systems</li>
+    </ul>
+</ul>
+
+What techniques can be used to define Enterprise Level process models?
+
+<ul>
+  <li>Enterprise level techniques</li>
+    <ul>
+      <li>Value Stream</li>
+      <li>Value Chain</li>
+      <li>SIPOC (Supplier, Input, Process, Output, Customer)</li>
+      <li>BPMN / Flowcharts</li>
+    </ul>
+</ul>
+
+What techniques can be used to define Event-Response level models?
+
+<ul>
+  <li>Flowcharts</li>
+  <li>Activity Diagrams</li>
+  <li>BPMN / CMMN</li>
+</ul>
+
+What is the purpose of BPMN, CMMN, and DMN? What are the differences between them?
+
+<ul>
+  <li>Purpose</li>
+    <ul>
+      <li>BPMN - models structured, well-defined processes</li>
+      <li>CMMN - models flexible, case-based processes</li>
+      <li>DMN - models decisions and business rules</li>
+    </ul>
+  <li>Differences</li>
+    <ul>
+      <li>BPMN - structured workflows</li>
+      <li>CMMN - semi-structured, human-led cases</li>
+      <li>DMN - decision logic and rules</li>
+    </ul>
+</ul>
+
+What is the purpose of Case Management Model Notation? What is the difference between CMMN and BPMN? 
+
+<ul>
+  <li>CMMN Purpose</li>
+    <ul>
+      <li>Models unpredictable, ad-hoc processes (cases)</li>
+      <li>Supports case planning, human decisions, and milestones</li>
+    </ul>
+  <li>Difference to BPMN</li>
+    <ul>
+      <li>CMMN is for flexible, human-managed tasks</li>
+      <li>BPMN - is for structured, well-defined workflows</li>
+    </ul>
+</ul>
+
+What is the difference between structured processes, cases, and ad-hoc processes?  
+
+<ul>
+  <li>Structured processes - well defined, repeatable, predictable</li>
+  <li>Cases - semi structured, may vary each time, led by humans</li>
+  <li>ad-hoc processes - unstructured, no predefined flow, planned as needed</li>
+</ul>
 
 ## Business Rules Analysis  
-- What is a business rule? What are the common sources of business rules?  
-- What are the characteristics of business rules? What are the main principles of business rule formulation?  
-- What is the purpose of DMN? How are BPMN and DMN related?  
+What is a business rule? What are the common sources of business rules?  
+
+<ul>
+  <li>What is a business rule?</li>
+  A business rule is a specific, testable directive that guides behaviour, shapes decisions, or judgments. It must be predictable and under business control
+  <li>Common sources of business rules</li>
+    <ul>
+      <li>Explicit sources (documented) - policies, regulations, contracts, standards, governance rules</li>
+      <li>Implicit sources (undocumented) - stakeholder know-how, accepted practices, company culture, informal decisions, market expectations</li>
+    </ul>
+</ul>
+
+What are the characteristics of business rules? What are the main principles of business rule formulation? 
+
+<ul>
+  <li>Characteristics of business rules</li>
+    <ul>
+      <li>Explicit - clearly stated</li>
+      <li>Specific - unambigious</li>
+      <li>Clear - understandable to all stakeholders</li>
+      <li>Accessible - easy to find and use</li>
+      <li>Single-sourced - defined in one authoritative place</li>
+    </ul>
+  <li>Main principles of formulation</li>
+    <ul>
+      <li>Use standard business vocabulary</li>
+      <li>Separate rules from how they are enforced</li>
+      <li>Define them atomically and declaratively</li>
+      <li>Keep rules separate from processes</li>
+      <li>Link rules to the decisions they impact</li>
+      <li>Make rules adaptable to changing needs</li>
+    </ul>
+</ul>
+
+
+What is the purpose of DMN? How are BPMN and DMN related? 
+
+<ul>
+  <li>Purpose of DMN (Decision Model and Notation)</li>
+    <ul>
+      <li>To model business decisions and rules in a clear, standardised, and automatable way</li>
+      <li>Helps analysts, developers, and business users manage and monitor decisions</li>
+    </ul>
+  <li>Relation between BPMN and DMN</li>
+    <ul>
+      <li>BPMN models processes</li>
+      <li>DMN models decisions within those processes</li>
+      <li>BPMN can include "business rule tasks" that link to DMN decision logic</li>
+    </ul>
+</ul>
 
 ## Introduction to System Design  
-- What is a software system design? Why do we perform software system design?  
-- What are the general design viewpoints?  
-- What are the general design strategies? What are the commonalities and differences between them?  
-- What is the design process? What phases and activities does it consist of? What are the software values?  
-- What are the common design strategies? How to decide which one to select?  
+What is a software system design? Why do we perform software system design? 
+
+<ul>
+  <li>Software system design is the creation of a plan for how a system will meet its goals - either as a physical structure or a process</li>
+  <li>We perform design to provide detailed data that enables implementation aligned with system architecture, ensuring structure and behaviour are well-defined</li>
+</ul>
+
+What are the general design viewpoints?  
+
+<ul>
+  <li>Functional - actions the system performs (flows, sequences)</li>
+  <li>Behavioural - how events cause system state changes</li>
+  <li>Data modelling - types and structure of data used</li>
+  <li>Constructional - how components are composed and connected</li>
+</ul>
+
+What are the general design strategies? What are the commonalities and differences between them? 
+
+<ul>
+  <li>General strategies</li>
+    <ul>
+      <li>Top-down - break big problems into smaller ones</li>
+      <li>Bottom-up - build from small parts to full system</li>
+      <li>Iterative/incremental - refine gradually</li>
+      <li>Waterfall - linear, phased-based</li>
+      <li>Agile - adaptive, short cycles</li>
+      <li>Buy or Make - build in-house or purchase</li>
+    </ul>
+  <li>Commonalities - all aim to reduce complexity and guide design decisions</li>
+  <li>Differences</li>
+    <ul>
+      <li>Top-down: structured, high redundancy, hard to integrate</li>
+      <li>Bottom-up: interactive, reusable, harder to see full picture early</li>
+    </ul>
+</ul>
+
+What is the design process? What phases and activities does it consist of? What are the software values?
+
+<ul>
+  <li>Design Process Phases and Activities</li>
+    <ul>
+      <li>Initialize definition</li>
+      <li>Establish characteristics and identifiers</li>
+      <li>Assess alternatives</li>
+      <li>Manage the process</li>
+    </ul>
+  <li>Software values</li>
+    <ul>
+      <li>Behaviour - urgent but less important</li>
+      <li>Structure (architecture) - important but less urgent</li>
+    </ul>
+</ul>
+
+What are the common design strategies? How to decide which one to select? 
+
+<ul>
+  <li>Common strategies</li>
+    <ul>
+      <li>Custom development</li>
+      <li>Packaged software</li>
+      <li>Outsourcing</li>
+    </ul>
+  <li>How to choose</li>
+    <ul>
+      <li>Business needs (unique vs common)</li>
+      <li>In-house expereince and skills</li>
+      <li>Project management strength</li>
+      <li>Time frame (flexible or short)</li>
+    </ul>
+</ul>
 
 ## Structured Analysis and Design  
-- What is the Structured Analysis and Design (SAD) method?  
-- What is the purpose of Data-Flow Diagrams in SAD? What are the rules of DFD creation? Which techniques provide supplementary information to DFD?  
+What is the Structured Analysis and Design (SAD) method?  
+
+<ul>
+  <li>Structured Analysis and Design (SAD) is a function-oriented approach to software development</li>
+  <li>It models a system by breaking it down into a set of interacting processes
+</li>
+  <li>It remains popular today because of its clarity and simplicity</li>
+
+</ul>
+
+What is the purpose of Data-Flow Diagrams in SAD? What are the rules of DFD creation? Which techniques provide supplementary information to DFD?  
+
+<ul>
+  <li>Purpose of DFDs</li>
+    <ul>
+      <li>To represent what functions the system performs</li>
+      <li>To show how data moves through the system</li>
+      <li>To model transformations of inputs into outputs</li>
+      <li>To understand system behaviour and its interaction with external entities</li>
+    </ul>
+  <li>Rules for DFD creation</li>
+    <ul>
+      <li>Must include at least one process</li>
+      <li>No self-connections allowed</li>
+      <li>Each process should have at least one input and one output data flow</li>
+      <li>Data stores must connect to at least one process</li>
+      <li>External entities cannot connect directly to each other</li>
+    </ul>
+  <li>Supplementary techniques</li>
+    <ul>
+      <li>CRUD Matrix – shows where each DFD process operates in the system</li>
+      <li>Event List and Event-Based DFDs – define triggers that start processes</li>
+      <li>Data Dictionary – provides detailed definitions of all data elements</li>
+      <li>Entity Relationship Diagrams – show how data entities relate</li>
+      <li>State Transition Diagrams – show changes in system states</li>
+      <li>Process Specifications – provide logic behind each process using methods like structured English, decision tables, decision trees, and flowcharts</li>
+    </ul>
+</ul>
 
 ## Object-Oriented Analysis Design  
-- What is a class? What is an object? What are the main characteristics of an object?  
-- What are the different kinds of class relationships and what purpose do they serve?  
-- What perspectives does the “4+1 Approach” include in Object-Oriented Analysis and Design (OOAD)? Which UML diagrams define structural and which define behavioural aspects of the system?  
-- What is the purpose of UML Use Case diagrams in OOAD? What are the main principles of defining Use Cases?  
+What is a class? What is an object? What are the main characteristics of an object?  
+
+<ul>
+  <li>A class is a set of objects that share a common structure, behaviour, and semantics. It acts as a contract between the abstraction and its clients</li>
+  <li>An object is a tangible or conceptual entity with:</li>
+    <ul>
+      <li>State (its data or attributes)</li>
+      <li>Behaviour (its actions or methods)</li>
+      <li>Unique identity (distinguishes it from other objects)</li>
+    </ul>
+  <li>Main characteristics of an object</li>
+    <ul>
+      <li>State: all properties and their values</li>
+      <li>Behaviour: how the object responds to events or messages</li>
+      <li>Identity: a unique identifier distinguishing it from other objects</li>
+    </ul>
+</ul>
+
+What are the different kinds of class relationships and what purpose do they serve? 
+
+<ul>
+  <li>Dependency: one class uses another. No runtime implication, but shows one class relies on another's definition</li>
+  <li>Association: a semantic relationship between classes</li>
+  <li>Aggregation</li>
+    <ul>
+      <li>Shared Aggregation: a whole-part relationship where the part can exist independently</li>
+      <li>Composite Aggregation: a stronger form where the part cannot exist independently of the whole</li>
+    </ul>
+  <li>Inheritance: a subclass shares structure/behaviour from a superclass. Can be single or multiple inheritance</li>
+  <li>Interface Implementation: a class implements a set of abstract operations defined in an interface</li>
+</ul>
+
+What perspectives does the “4+1 Approach” include in Object-Oriented Analysis and Design (OOAD)? Which UML diagrams define structural and which define behavioural aspects of the system?
+
+<ul>
+  <li>The 4 + 1 View Model includes</li>
+    <ul>
+      <li>Logical View - show structure</li>
+      <li>Process View – shows dynamic behaviour</li>
+      <li>Implementation View – describes code components and their organization</li>
+      <li>Deployment View – shows how components are deployed to hardware</li>
+      <li>Scenarios (Use Cases) – describe functional requirements through use case scenarios</li>
+    </ul>
+  <li>Structural UML diagrams</li>
+    <ul>
+      <li>Class diagram</li>
+      <li>Object diagram</li>
+      <li>Package diagram</li>
+      <li>Component diagram</li>
+      <li>Deployment diagram</li>
+    </ul>
+  <li>
+    <ul>
+      <li>Use case diagram</li>
+      <li>Sequence diagram</li>
+      <li>Communication diagram</li>
+      <li>Activity diagram</li>
+      <li>State machine diagram</li>
+    </ul>
+  </li>
+</ul>
+
+What is the purpose of UML Use Case diagrams in OOAD? What are the main principles of defining Use Cases?
+
+<ul>
+  <li>Purpose of Use Case diagrams</li>
+    <ul>
+      <li>Represent how a system interacts with external actors</li>
+      <li>Provide a high-level view of business processes</li>
+      <li>Serve as a foundation for design, testing, and interface development</li>
+      <li>Can describe both current and future systems</li>
+    </ul>
+  <li>Main principles of defining use cases</li>
+    <ul>
+      <li>Identify the primary actor and their goals</li>
+      <li>Describe normal flow, sub-flows, and alternative flows</li>
+      <li>Include stakeholders’ interests, relationships, and exceptions</li>
+      <li>Document use case identification, type, and description clearly</li>
+      <li>Use them early in design to guide architecture and functional decisions</li>
+    </ul>
+</ul>
