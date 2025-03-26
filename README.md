@@ -306,9 +306,83 @@ Holistic vs. Agile
       <li>RAG assessment</li>
     </ol>
   </ol>
-- What is the goal of improvement identification during business analysis? What techniques can be applied to support issue finding?  
-- What is the goal of options evaluation and feasibility assessment during business analysis? What techniques can be applied to find ideas and evaluate options?  
-- What are the goals of requirements definition? What are common approaches to document requirements?  
+- What is the goal of improvement identification during business analysis? What techniques can be applied to support issue finding?
+  Goal is to identify improvements to the business system and propose changes to the organisation, processes, people, information systems/technologies.
+  ![image](https://github.com/user-attachments/assets/8e2005b0-61fc-4572-afed-629e05d50679)
+
+  Techniques:
+  <ol>
+    <li>GAP Analysis</li>
+    <li>CATWOE Analysis</li>
+    <li>BAM Analysis</li>
+    <li>Organisation Diagram</li>
+    <li>Process Analysis</li>
+    <ol>
+      <li>Process Analysis</li>
+      <li>Event-response analysis</li>
+      <li>Actor-task analysis</li>
+    </ol>
+  </ol>
+
+
+- What is the goal of options evaluation and feasibility assessment during business analysis? What techniques can be applied to find ideas and evaluate options?
+  Goal is to prepare proposal for a change in form of Business Case Document
+
+  Techniques:
+  <ol>
+    <li>Ideation</li>
+    <ol>
+      <li>Creative thinking</li>
+      <li>Discovery and options identification</li>
+    </ol>
+    <li>Option evaluation</li>
+    <ol>
+      <li>Force-field analysis</li>
+      <li>Impact analysis</li>
+      <li>Risk analysis</li>
+    </ol>
+    <li>Governance</li>
+    <ol>
+      <li>Business Case development</li>
+    </ol>
+  </ol>
+- What are the goals of requirements definition? What are common approaches to document requirements?
+  Goal is to identify and define requirements that enable development of a solution with features and behaviours that meet the business objectives.
+
+  Common approaches / techniques:
+  <ol>
+    <li>Elicitation</li>
+    <ol>
+      <li>Documentation analysis</li>
+      <li>Prototyping</li>
+      <li>Scenario analysis</li>
+      <li>Wireframes</li>
+      <li>Workshops</li>
+    </ol>
+    <li>Analysis</li>
+    <ol>
+      <li>Proritisation, categorisation, negotiation</li>
+      <li>User Analysis</li>
+    </ol>
+    <li>Documentation and modelling</li>
+    <ol>
+      <li>Context, use cases, user stories, scenarios</li>
+      <li>Structural models (class/ER diagrams)</li>
+      <li>Behavioural models (activties, states)</li>
+      <li>Product backlog/requirements catalogue</li>
+    </ol>
+    <li>Planning and management</li>
+    <ol>
+      <li>Requirements estimation / traceability matrix</li>
+      <li>Sprints, daily stand-ups, retrospectives</li>
+    </ol>
+    <li>Validation</li>
+    <ol>
+      <li>Formal vs less formal</li>
+      <li>Necessity, quality</li>
+      <li>Show and tell</li>
+    </ol>
+  </ol>
 
 --------------------------------------------------
 ## System Modelling  
