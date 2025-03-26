@@ -308,6 +308,7 @@ Holistic vs. Agile
   </ol>
 - What is the goal of improvement identification during business analysis? What techniques can be applied to support issue finding?
   Goal is to identify improvements to the business system and propose changes to the organisation, processes, people, information systems/technologies.
+  
   ![image](https://github.com/user-attachments/assets/8e2005b0-61fc-4572-afed-629e05d50679)
 
   Techniques:
